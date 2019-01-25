@@ -46,7 +46,12 @@ class App extends Component {
         <Route
           exact
           path="/"
-          render={() => <Smurfs smurfs={this.state.smurfs} />}
+          render={() => (
+            <Smurfs
+              getSmurfList={this.getSmurfList}
+              smurfs={this.state.smurfs}
+            />
+          )}
         />
       </div>
     );

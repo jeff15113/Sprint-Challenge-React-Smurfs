@@ -3,7 +3,6 @@ import Axios from "axios";
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       name: "",
       age: "",
