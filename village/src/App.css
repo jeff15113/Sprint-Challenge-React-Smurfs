@@ -6,7 +6,7 @@ body {
   background-color: rgb(232, 234, 237);
 }
 
-.navbar {
+.headerbar {
   display: flex;
   justify-content: space-between;
   color: white;
@@ -17,8 +17,15 @@ body {
   border-bottom: 1px solid #29487d;
 }
 
-.navbar h1 {
+.headerbar h1 {
   margin: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  color: white;
 }
 
 .cardcontainer {
