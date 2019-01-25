@@ -1,3 +1,106 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-color: rgb(232, 234, 237);
+}
+
+.headerbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  padding-right: 0;
+  height: 42px;
+  background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+}
+
+.headerbar h1 {
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin: 0px 15px;
+}
+
+.nav a {
+  align-self: center;
+  color: white;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  height: 125px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.add {
+  padding-top: 15px;
+}
+
+.plus {
+  position: relative;
+  top: -19px;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(68, 103, 176);
+}
+
+.card h3 {
+  margin-top: -10px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.card ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.closebtn {
+  opacity: 1;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/KutEQolMtD6.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -441px;
+  height: 18px;
+  left: 307px;
+  position: relative;
+  top: -13px;
+  width: 18px;
+  z-index: 2;
+  transition: opacity 0.4s linear 0.5s;
+}
+
+.closebtn:hover {
+  opacity: 1;
+  transition: opacity 0.1s;
+}
