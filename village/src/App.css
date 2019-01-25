@@ -25,6 +25,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 180px;
+  margin: 0px 15px;
+}
+
+.nav a {
+  align-self: center;
   color: white;
 }
 
